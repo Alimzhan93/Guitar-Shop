@@ -27,7 +27,20 @@
 }
 .products-element__price{
     margin-top: var(--spacing-madium);
+    color: var(--color-unaccent);
 }
 .products-element__btn{
     margin-top: var(--spacing-madium);
+    padding: var(--spacing-small) var(--spacing-madium);
+    border: 1px solid var(--color-unaccent);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    outline: none;
+    background: none;
+    font-family: inherit;
+    font-size: inherit;
+}
+.products-element__btn_active{
+   border: 1px solid transparent;
+   background-image: var(--linear-gradient);
 }
