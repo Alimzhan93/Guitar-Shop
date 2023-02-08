@@ -16,7 +16,7 @@ class Producs {
         element.classList.remove(this.classNameActive)
         element.innerHTML = this.labelAdd
        }
-
+       headerPage.render(products.length)
     }
 
     render(){
